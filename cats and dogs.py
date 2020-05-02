@@ -65,7 +65,7 @@ next_dog_pix = [os.path.join(train_dogs_dir, fname)
 for i, img_path in enumerate(next_cat_pix+next_dog_pix):
   # Set up subplot; subplot indices start at 1
   sp = plt.subplot(nrows, ncols, i + 1)
-  sp.axis('Off') # Don't show axes (or gridlines)
+  sp.axis('Off') # Don't show axes (or gridlines) 
 
   img = mpimg.imread(img_path)
   plt.imshow(img)
