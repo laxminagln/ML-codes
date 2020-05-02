@@ -21,7 +21,7 @@ zip_ref.close()
 
 rock_dir = os.path.join('/tmp/rps/rock')
 paper_dir = os.path.join('/tmp/rps/paper')
-scissors_dir = os.path.join('/tmp/rps/scissors')
+scissors_dir = os.path.join('/tmp/rps/scissors') 
 
 print('total training rock images:', len(os.listdir(rock_dir)))
 print('total training paper images:', len(os.listdir(paper_dir)))
