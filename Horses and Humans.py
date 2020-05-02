@@ -102,4 +102,5 @@ for fn in uploaded.keys():
     print(fn + " is a human")
   else:
     print(fn + " is a horse")
+ #python code
     
