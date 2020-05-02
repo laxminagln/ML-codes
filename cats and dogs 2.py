@@ -25,7 +25,7 @@ try:
     os.mkdir('/tmp/cats-v-dogs/testing')
     os.mkdir('/tmp/cats-v-dogs/training/cats')
     os.mkdir('/tmp/cats-v-dogs/training/dogs')
-    os.mkdir('/tmp/cats-v-dogs/testing/cats')
+    os.mkdir('/tmp/cats-v-dogs/testing/cats') 
     os.mkdir('/tmp/cats-v-dogs/testing/dogs')
 except OSError:
     pass
