@@ -1,4 +1,4 @@
-!wget --no-check-certificate \ 
+!wget --no-check-certificate \
     https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps.zip \
     -O /tmp/rps.zip
   
